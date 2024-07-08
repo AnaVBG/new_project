@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.contenido{
+    /* background-color: bisque; */
+    width: 1000px;
+    margin: auto;
+}
+
+.arriba{
+    width: 120px;
+    height: 100px;
+    padding: 2px 0px 0px 130px;
+    float: left;
+}
+
+h1{
+    color: rgb(238, 112, 10);
+    font-family: comic sans ms;
+    font-style: oblique;
+    text-shadow: 3px 4px 13px black;
+    padding: 50px 0px 40px 280px;
+    font-size: 35px;
+}
+
+ol{
+    text-align: center;
+}
+
+ol li{
+    padding: 10px 10px;
+    list-style: none;
+    display: inline-block;
+}
+
+ol li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    background-color: rgb(37, 70, 154);
+    border-radius: 15px;
+}
+
+ol li a:hover{
+    background-color: rgb(238, 112, 10);
+    color: white;
+}
+
+.abajo{
+    height: 180px;
+    float: left;
+    margin: 20px 30px 30px 130px;
+    box-shadow: 10px 10px 20px;
+}
+
+.up h2{
+    padding: 25px 20px 4px 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.up p{
+    padding: 2px 130px 20px 130px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.down h2{
+    padding: 2px 20px 8px 130px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+.down p{
+    padding: 6px 130px 70px 130px;
+    font-size: 17px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+    text-align: justify;
+}
+
+.last p{
+    color: white;
+    margin: 0px 130px 30px 130px;
+    text-align: right;
+    background-color: rgb(238, 112, 10);
+}
+
+span{
+    color: rgb(238, 112, 10);
+    font-weight: bold;
+}
